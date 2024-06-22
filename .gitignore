@@ -1,5 +1,0 @@
-# Fichiers à ignorer
-/portfolio_upload/.env
-/portfolio_upload/key.txt
-/portfolio_upload/key.pub
-/portfolio_upload/netlify.toml
