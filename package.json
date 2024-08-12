@@ -21,12 +21,13 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "CI=true react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+"scripts": {
+  "prebuild": "npm install",
+  "build": "react-scripts build",
+  "start": "react-scripts start",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+},
   "eslintConfig": {
     "extends": [
       "react-app",

@@ -33,8 +33,8 @@ export const NavBar = () => {
           {/* <li><button className="join-button" onClick={toggleNav}>Join</button></li> */}
            <span className="navbar-text">
           <div className="social-icon">
-            <a href="https://linkedin.com/" id="linkedin-icon"><FaLinkedin /></a>
-            <a href="https://github.com/" id="github-icon"><FaGithub /></a>
+            <a href="https://www.linkedin.com/in/chedi-ouerghi-21860a24a/" id="linkedin-icon"><FaLinkedin /></a>
+            <a href="https://github.com/chedi-ouerghi" id="github-icon"><FaGithub /></a>
             <a href="https://twitter.com/" id="twitter-icon"><FaTwitter /></a>
           </div>
         </span>

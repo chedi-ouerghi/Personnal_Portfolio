@@ -7,56 +7,63 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-  const projects = [
-    {
-      title: 'E-commerce Frontend (React.js)',
-      description: 'A frontend e-commerce platform built with React.js.',
-      imgUrl: coverhelp,
-    },
-    {
-      title: 'E-commerce Frontend (React.js)',
-      description: 'Another e-commerce frontend built with React.js.',
-      imgUrl: coverhelp,
-    },
-    {
-      title: 'TodoList (Node.js & React)',
-      description: 'A TodoList application built with Node.js and React.',
-      imgUrl: coverhelp,
-    },
-    {
-      title: 'Chat App (React & react-chat-engine)',
-      description: 'A framework for building real-time chat applications built with React and react-chat-engine.',
-      imgUrl: coverhelp,
-    },
-    {
-      title: 'Laravel Project',
-      description: 'A TodoList application built using Laravel.',
-      imgUrl: coverhelp,
-    },
-    {
-      title: 'HTML/CSS/JS Project',
-      description: 'A small project to learn (Jeu-de-pierre-papier-ciseaux/TicTacToe/small-Quiz/texte-Compteur) built using HTML, CSS, and JS.',
-      imgUrl: coverhelp,
-    },
-    {
-      title: 'Creation Portfolio Website (React.js, Node.js, MongoDB)',
-      description: 'A project for create a personal portfolio website built with React.js, Node.js, and MongoDB.',
-      imgUrl: coverhelp,
-    },
-  ];
+const projects = [
+  {
+    title: 'Site Web de Création de Portfolios',
+    description: 'Conçu et développé un site web de portfolio en utilisant React.js, Node.js et MongoDB comme projet final pour Gomycode.',
+    imgUrl: coverhelp,
+  },
+  {
+    title: 'E-commerce de Vente de Lunettes',
+    description: 'Développement d\'une plateforme de vente en ligne de lunettes en utilisant React.js, Node.js et MySQL.',
+    imgUrl: coverhelp,
+  },
+  {
+    title: 'Site de Cartes de Films 2023-2024',
+    description: 'Conception et développement d\'un site web de cartes de films en utilisant React.js, Node.js et MySQL.',
+    imgUrl: coverhelp,
+  },
+  {
+    title: 'Gestion des Employeurs (Backend) 2023-2024',
+    description: 'Développement d\'une application backend pour la gestion des employeurs en utilisant Node.js et SQL Server.',
+    imgUrl: coverhelp,
+  },
+  {
+    title: 'Application de Boutique en Ligne (Frontend)',
+    description: 'App mobile en React Native avec navigation, panier, paiement, gestion de localisations et affichage des produits. Design responsive.',
+    imgUrl: coverhelp,
+  },
+  {
+    title: 'Chat App (React & react-chat-engine)',
+    description: 'A framework for building real-time chat applications built with React and react-chat-engine.',
+    imgUrl: coverhelp,
+  },
+  {
+    title: 'Laravel Project',
+    description: 'A TodoList application built using Laravel.',
+    imgUrl: coverhelp,
+  },
+];
 
-  const projectsDesign = [
-    {
-      title: 'Figma Prototypes',
-      description: 'A mobile app mockup for animal care.',
-      imgUrl: coverhelp,
-    },
-    {
-      title: 'Canva',
-      description: '5 presentation graphics and prototypes created with Canva.',
-      imgUrl: coverhelp,
-    },
-  ];
+
+const projectsDesign = [
+  {
+    title: 'Landing Page Pizza',
+    description: 'Conception d\'une landing page pour une pizzeria avec des animations au défilement pour une expérience utilisateur engageante. Le design met en avant des éléments interactifs et une présentation visuelle appétissante qui attirent l\'attention des visiteurs.',
+    imgUrl: coverhelp,
+  },
+  {
+    title: 'Crypto Trading',
+    description: 'Création d\'une landing page pour une plateforme de trading de cryptomonnaies avec des animations au défilement. Le design se concentre sur une interface utilisateur moderne et dynamique, avec des graphiques interactifs et des éléments visuels qui mettent en valeur les fonctionnalités de la plateforme.',
+    imgUrl: coverhelp,
+  },
+  {
+    title: 'Pet Haven - Pet Adoption Mobile',
+    description: 'Design d\'une application mobile pour l\'adoption d\'animaux de compagnie avec Figma. Le projet inclut une interface conviviale pour les utilisateurs souhaitant adopter des animaux, avec des animations fluides et un design attrayant qui facilite la navigation et l\'interaction.',
+    imgUrl: coverhelp,
+  },
+];
+
 
   return (
     <section className="project" id="projects">

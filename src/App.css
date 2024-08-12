@@ -248,7 +248,7 @@ span.navbar-text { display: flex; align-items: center; }
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 100px 0 100px 0;
  
   background-position: top center;
   background-size: cover;
